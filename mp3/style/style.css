@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: no-repeat url("images/bg.png") center;
+    background-size: cover;
+    font-family: Roboto;
+    text-shadow: 0px 3px 12px #a3a3a3;
+}
+
+h1 {
+    color: #10bf10;
+}
+
+h3 {
+    margin: 0;
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+table {
+    padding: 3px;
+    border: none;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+td {
+    border: none;
+    padding: 3px;
+    padding-right: 10px;
+}
+
+progress {
+    background-color: #6eeb34;
+    border-radius: 9px;
+    width: 35vw;
+    height: 2vh;
+}
+details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59vw;
+    margin-bottom: 15px;
+}
+
+summary{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #292929;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #292929;
+    margin-bottom: -2px;
+    border-color: rgba(68, 68, 68, .0);
+    transition: border-color 0.2s;
+}
+
+a:hover {
+    border-color: rgba(68, 68, 68, 1);
+    transition: border-color 0.2s;
+    margin-bottom: -2px;
+}
+
+.head_wrapper{
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.buttons_wrapper {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.logo_wrapper{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}
+.logo_wrapper > span{
+    font-weight: bold;
+    font-size: 2.2em;
+    margin-left: 10px;
+}
+
+#tracks{
+    width: 60vw;
+    height: 100%;
+}
+
+
+
